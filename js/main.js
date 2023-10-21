@@ -119,7 +119,6 @@
 
 function changeImageOnScroll() {
   var image = document.getElementById("logo-head");
-
   // Change the image source when scrolling past a certain point
   if (window.scrollY > 20) {
     image.src = "assets/img/logo_rp.png";
@@ -132,3 +131,4 @@ function changeImageOnScroll() {
 
 // Attach the function to the window's scroll event
 window.onscroll = changeImageOnScroll;
+
