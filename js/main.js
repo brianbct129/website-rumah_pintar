@@ -119,8 +119,9 @@
 
 function changeImageOnScroll() {
   var image = document.getElementById("logo-head");
+  var screenWidth = window.innerWidth;
   // Change the image source when scrolling past a certain point
-  if (window.scrollY > 20) {
+  if (window.scrollY > 20 || screenWidth <= 728) {
     image.src = "assets/img/logo_rp.png";
     image.alt = "Black Logo";
   } else {
@@ -131,4 +132,4 @@ function changeImageOnScroll() {
 
 // Attach the function to the window's scroll event
 window.onscroll = changeImageOnScroll;
-
+// Initial call to set images based on the current screen width
