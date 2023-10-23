@@ -97,7 +97,6 @@
     loop: true,
     margin: 45,
     dots: false,
-    loop: true,
     autoplay: true,
     smartSpeed: 1000,
     responsive: {
@@ -108,10 +107,10 @@
         items: 4,
       },
       768: {
-        items: 6,
+        items: 5,
       },
       992: {
-        items: 8,
+        items: 5,
       },
     },
   });
