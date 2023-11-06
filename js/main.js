@@ -132,3 +132,20 @@ function changeImageOnScroll() {
 // Attach the function to the window's scroll event
 window.onscroll = changeImageOnScroll;
 // Initial call to set images based on the current screen width
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.querySelector(
+      'input[placeholder="Nama Lengkap"]'
+    ).value;
+    const email = document.querySelector('input[placeholder="Email"]').value;
+    const subject = document.querySelector('input[placeholder="Subjek"]').value;
+    const message = document.querySelector(
+      'textarea[placeholder="Pesan"]'
+    ).value;
+
+    const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${subject}%0D%0APesan:%20${message}`;
+    window.open(url, "_blank");
+  });

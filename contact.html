@@ -126,6 +126,7 @@
             <a href="index.html" class="nav-item nav-link">Beranda</a>
             <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
             <a href="service.html" class="nav-item nav-link">Layanan</a>
+            <a href="blog.html" class="nav-item nav-link">Portofolio</a>
             <!-- <div class="nav-item dropdown">
                   <a
                     href="#"
@@ -227,7 +228,7 @@
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style="max-width: 600px"
         >
-          <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+          <h5 class="fw-bold text-primary text-uppercase">Hubungi Kami</h5>
           <h1 class="mb-0">Hubungi Kami Untuk Semua Jawaban Anda</h1>
         </div>
         <div class="row g-5 mb-5">
@@ -287,7 +288,7 @@
         </div>
         <div class="row g-5">
           <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-            <form>
+            <form id="contactForm" method="POST">
               <div class="row g-3">
                 <div class="col-md-6">
                   <input
@@ -321,7 +322,11 @@
                   ></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
+                  <button
+                    id="submitForm"
+                    class="btn btn-primary w-100 py-3"
+                    type="submit"
+                  >
                     Kirim Pesan
                   </button>
                 </div>
