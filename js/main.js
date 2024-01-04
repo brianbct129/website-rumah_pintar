@@ -119,7 +119,8 @@
 function changeImageOnScroll() {
   var image = document.getElementById("logo-head");
   var screenWidth = window.innerWidth;
-  // Change the image source when scrolling past a certain point
+  
+  // Change the image source when scrolling past a certain point or on mobile devices
   if (window.scrollY > 20 || screenWidth <= 728) {
     image.src = "assets/img/logo_rp.png";
     image.alt = "Black Logo";
@@ -129,9 +130,14 @@ function changeImageOnScroll() {
   }
 }
 
-// Attach the function to the window's scroll event
+// Attach the function to the window's scroll event and resize event
 window.onscroll = changeImageOnScroll;
-// Initial call to set images based on the current screen width
+window.onresize = changeImageOnScroll;
+
+// Trigger the function on page load to set the initial state
+changeImageOnScroll();
+
+
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
