@@ -13,7 +13,7 @@
     <!-- Spinner Start -->
     <?php include('layout/spinner.php') ?>
     <!-- Spinner End -->
-    <?php include('layout/nav.php') ?>
+    <?php include('layout/nav_content.php') ?>
 
     <!-- Contact Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -73,15 +73,17 @@
             </form>
           </div>
           <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
-            <iframe
-              class="position-relative rounded w-100 h-100"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8112010.263694319!2d107.79944595088548!3d-6.897479624805383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf1d587162d79d%3A0x35ee77a40f10c3d6!2sRumah%20Pintar%20Teknologi%20%26%20Inovatif!5e0!3m2!1sid!2sid!4v1698041238742!5m2!1sid!2sid"
-              frameborder="0"
-              style="min-height: 350px; border: 0"
-              allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
-            ></iframe>
+          <iframe
+            class="position-relative rounded w-100 h-100" 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1986.8257671493616!2d119.41237471355299!3d-5.159643217267823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf1d587162d79d%3A0x35ee77a40f10c3d6!2sRumah%20Pintar%20Teknologi%20%26%20Inovatif!5e0!3m2!1sid!2sid!4v1706855191734!5m2!1sid!2sid" 
+            width="600" height="450" 
+            style="min-height: 350px; border: 0"
+                allowfullscreen="true"
+                aria-hidden="false"
+                tabindex="0"
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
           </div>
         </div>
       </div>

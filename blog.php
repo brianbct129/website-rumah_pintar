@@ -15,16 +15,13 @@
     <!-- Spinner End -->
 
 
-    <?php include('layout/nav.php') ?>
+    <?php include('layout/nav_content.php') ?>
 
     <!-- Blog Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5">
         <div class="row g-5 justify-content-center">
-          <!-- Blog list Start -->
-          <div class="col-lg-8">
-            <div class="row g-5">
-              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
                 <div class="blog-item bg-light rounded overflow-hidden">
                   <div class="blog-img position-relative overflow-hidden">
                     <img
@@ -130,9 +127,6 @@ Pusat Terapi Terpadu Autisme "Buahatiku" adalah sebuah lembaga yang berdedikasi 
                   </div>
                 </div>
               </div>
-            <!-- Plain Text End -->
-          </div>
-          <!-- Sidebar End -->
         </div>
       </div>
       </div>

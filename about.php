@@ -14,7 +14,7 @@
    <?php include('layout/spinner.php') ?>
     <!-- Spinner End -->
 
-    <?php include('layout/nav.php') ?>
+    <?php include('layout/nav_content.php') ?>
    
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5">

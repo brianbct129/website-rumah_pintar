@@ -71,11 +71,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.php" class="nav-item nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>">Beranda</a>
-            <a href="about.php" class="nav-item nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>">Tentang Kami</a>
-            <a href="service.php" class="nav-item nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'service.php') echo 'active'; ?>">Layanan</a>
-            <a href="blog.php" class="nav-item nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'blog.php') echo 'active'; ?>">Portofolio</a>
-            <a href="contact.php" class="nav-item nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>">Hubungi Kami</a>
+            <?php require ('nav_menu.php') ?>
           </div>
           <button
             type="button"
