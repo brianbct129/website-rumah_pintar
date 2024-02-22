@@ -38,8 +38,7 @@
                   <div class="p-4">
                     <h4 class="mb-3">Malltronik</h4>
                     <p class="text-truncate">
-                      
-Malltronik adalah platform inovatif sejenis Gojek dan Grab yang memberikan pengguna akses mudah dan nyaman untuk berbagai layanan transportasi dan belanja. Dengan menggabungkan kemudahan transportasi dan keperluan belanja dalam satu aplikasi, Malltronik menyediakan solusi yang komprehensif dan efisien bagi konsumen modern.
+                      Malltronik adalah platform inovatif sejenis Gojek dan Grab yang memberikan pengguna akses mudah dan nyaman untuk berbagai layanan transportasi dan belanja. Dengan menggabungkan kemudahan transportasi dan keperluan belanja dalam satu aplikasi, Malltronik menyediakan solusi yang komprehensif dan efisien bagi konsumen modern.
                     </p>
                     <a class="text-uppercase" href=""
                       >Lanjut Membaca <i class="bi bi-arrow-right"></i
