@@ -80,7 +80,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                         <div class="dropdown-menu m-0">
-                            <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                            <a href="portfolio.php" class="dropdown-item">Blog Grid</a>
                             <a href="detail.php" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
