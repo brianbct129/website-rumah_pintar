@@ -8,429 +8,345 @@
     <meta content="Rumah Pintar Teknologi & Inovatif" name="keywords" />
     <meta content="Rumah Pintar Teknologi & Inovatif" name="description" />
     <?php include('layout/css.php') ?>
-    
-  </head>
-
-  <style>
-        /* Optional: Add custom styles here */
-        /* body {
-            background-color: #f8f9fa;
-            padding: 20px;
-        } */
-
-        .item {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            margin-top: 20px;
-        }
-
-        h2 {
-            color: #007bff;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            list-style: inside;
-        }
-
-        .budget-table {
-            margin-top: 20px;
-        }
-
-        .budget-table th, .budget-table td {
-            text-align: center;
-        }
-
-        .total {
-            font-weight: bold;
-            font-size: 24px;
-            color: black;
-            margin-top: 10px;
-        }
-
-        .benefits-container {
-            margin-top: 40px;
-        }
-
-        .benefits {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .benefit-text {
-            flex: 1;
-            margin-left: 20px;
-        }
-
-        .benefit-image {
-            flex: 1;
-            max-width: 200px;
-        }
-
-        .additional-content {
-            margin-top: 40px;
-        }
-        .images {
-            width: 80%;
-            height: auto;
-            align-items: center;
-            border-radius: 10px;
-        }
-        .subitem {
-            margin-top: 10px;
-        }
-        .itemTitel{
-            border: 1px solid #dee2e6; /* Warna border */
-            padding: 10px; /* Jarak antara konten dan border */
-            border-radius: 5px; /* Bentuk border */
-        }
-
-        img.tengah {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .card {
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-
-        .card-body {
-            text-align: center;
-        }
-
-        .harga {
-            color: #007bff;
-        }
-    </style>
-
+</head>
 
 <body>
-    <!-- Spinner Start -->
-    <!-- Spinner End -->
+    <?php include('layout/nav_content.php') ?>
 
-<?php include('layout/nav_content.php') ?>
-
-
-<div class="container item">
-        <div class="row">
-            <div class="col-lg-6">
-                <h2 class="mb-4">Kenapa Social Media Management Penting?</h2>
-                <p>&bull; Pemasaran dan Promosi</p>
-                <p>&bull; Interaksi dengan Market yang baru</p>
-                <p>&bull; Branding Awareness</p>
-                <p>&bull; Develop Branding</p>
-                <p>&bull; Analisa Pasar</p>
-                <p>&bull; Peluang Penjualan</p>
-                <p>&bull; dan masih banyak lagi</p>
+    <!-- Problem -->
+    <div class="container-fluid  wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class=" text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 650px">
+                <!-- <h5 class="fw-bold text-primary text-uppercase">Tertarik Dengan Social Media Tapi...</h5> -->
+                <h1 class="mb-0">Tertarik Dengan Social Media, Tapi...</h1>
             </div>
-            <div class="col-lg-6">
-                <h2 class="mb-4">Berapa Budget Untuk Kelola Social Media?</h2>
-                <table class="table budget-table">
-                    <thead>
-                        <tr>
-                            <th>Posisi</th>
-                            <th>Budget (Rp.)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Admin Social Media</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Social Media Manager</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Graphic Designer</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Copywriting Expert</td>
-                            <td>3.500.000</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="total">TOTAL : Rp. 14.000.000 / Bulan</p>
-            </div>
-        </div>
-    </div>
 
-  
-    <div class="container item">
-        <div class="additional-content">
-            <div class="row">
-            <div class="col-md-6">
-                <div class="mb-3">
-                <h2 class="mb-4">Tertarik Dengan Social Media Tapi...</h2>
-                <p>&bull; Tidak ada waktu? </p>
-                <p>&bull; Bingung ?</p>
-                <p>&bull; Tidak Paham ?</p>
-                <p>&bull; Mahal ?</p>
-                <p>&bull; Tidak Punya Budget?</p>
-                <p>&bull; Pernah Coba tapi tidak Efektif? </p>
-                <p>&bull; Tidak tau mau tanya kemana?</p>
+            <div class="row g-5 mb-5">
+
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px">
+                            <i class="fa fa-question-circle text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <!-- <h5 class="mb-2">Tidak ada waktu ?</h5> -->
+                            <h4 class="text-primary mb-0">Tidak ada waktu ?</h4>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px">
+                            <i class="fa fa-question-circle text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <!-- <h5 class="mb-2">Bingung</h5> -->
+                            <!-- <h4 class="text-primary mb-0">Tidak Paham ?</h4> -->
+                            <h4 class="text-primary mb-0">Tidak Punya Budget ?</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="mb-3">
-                        <img class="img-fluid w-100 rounded" src="https://www.itvibes.com/site/wp-content/uploads/2021/03/socialmedia-marcketing-mobile.jpg" alt="">
+
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px">
+                            <i class="fa fa-question-circle text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <!-- <h5 class="mb-2">Tidak Punya Budget ?</h5> -->
+                            <h4 class="text-primary mb-0">Tidak Paham ?</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container item" >
-        <div class="additional-content">
-            <div class="mb-5" style="align-items: center;">
-                <img class="images img-fluid tengah  rounded"  src="./img/social_media/Slide5.JPG" alt="">
+    <!-- Solution -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Solusinya,</h5>
+                <h1 class="mb-0">Manajemen Sosial Media Rumah Pintar</h1>
             </div>
-        </div>
-    </div>
-
-
-    <div class="container item">
-        <div class="row">
-            <div class="col-lg-6">
-            <h2 class="mb-4">Tantangan</h2>
-            <h5>Budget Pengelolaan Social Media Jika Dikelola Sendiri</h5>
-                <table class="table budget-table">
-                    <thead>
-                        <tr>
-                            <th>Posisi</th>
-                            <th>Budget (Rp.)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Admin Social Media</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Social Media Manager</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Graphic Designer</td>
-                            <td>3.500.000</td>
-                        </tr>
-                        <tr>
-                            <td>Copywriting Expert</td>
-                            <td>3.500.000</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="total">TOTAL : Rp. 14.000.000 / Bulan</p>
-            </div>
-            <div class="col-lg-6">
-                <h2 class="mb-4">SOLUSI</h2>
-                <h5>Budget Pengelolaan Social Media Dikelola Rumah Pintar</h5>
-                <table class="table budget-table">
-                    <thead>
-                        <tr>
-                            <th>Posisi</th>
-                            <th>Budget (Rp.)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Admin Social Media</td>
-                            <td>Termasuk</td>
-                        </tr>
-                        <tr>
-                            <td>Social Media Manager</td>
-                            <td>Termasuk</td>
-                        </tr>
-                        <tr>
-                            <td>Graphic Designer</td>
-                            <td>Termasuk</td>
-                        </tr>
-                        <tr>
-                            <td>Copywriting Expert</td>
-                            <td>Termasuk</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="total">TOTAL HANYA : Rp. 249.999 / Bulan</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container item">
-        <h3 class="text-center mb-5">Apa yang anda akan dapatkan pada Paket BBP : Brand Boost Package</h3>
-        <div class="container text-center mb-3">
-            <div class="row">
-                <div class="col itemTitel">
-                    <h5>12x Feed Instagram</h5>
-                    <div class="subitem">Anda akan mendapatkan 12x Postingan pada Instagram Feed setiap bulannya yang artinya kurang lebih 3x seminggu instagram anda akan selalu ada postingan baru </div>
-                </div>
-                <div class="col itemTitel">
-                    <h5>4x Story Picture</h5>
-                    <div class="subitem">Disela sela postingan Feed Instagram yang 3x seminggu, akun instagram anda juga akan update di bagian story berupa gambar sehingga akun instagram anda tiap hari akan ada update</div>
-                </div>
-                <div class="col itemTitel">
-                    <h5>4x Story Video</h5>
-                    <div class="subitem">Selain story berupa gambar , akun instagram anda juga akan berisi story dalam bentuk video animasi yang akan membuat akun anda makin hidup dan penuh warna</div>
-                </div>
-                <div class="col itemTitel">
-                    <h5>Copywriting Design & Hashtag</h5>
-                    <div class="subitem">Tentunya Tenaga ahli kami setiap bulannya kami akan menganalisa dan planning secara berkelanjutan untuk Copywriting design dan hashtag yang optimal sehingga instagram anda akan makin dikenal</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container text-center">
-            <div class="row">
-                <div class="col itemTitel">
-                <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <h5>Instagram Feed</h5>
-                    <div class="subitem">Anda akan mendapatkan 12x Postingan pada Instagram Feed setiap bulannya yang artinya kurang lebih 3x seminggu instagram anda akan selalu ada postingan baru</div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="mb-3">
-                        <img class="img-fluid w-100 rounded" src="./img/Picture1.png" alt="">
-                    </div>
-                </div>
-                </div>
-                </div>
-
-                <div class="col itemTitel">
-                <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                <h5>Story Picture</h5>
-                    <div class="subitem">Disela sela postingan Feed Instagram yang 3x seminggu, akun instagram anda juga akan update di bagian story berupa gambar sehingga akun instagram anda tiap hari akan ada update</div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="mb-3">
-                        <img class="img-fluid w-100 rounded" src="./img/Picture2.png" alt="">
-                    </div>
-                </div>
-                </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container text-center">
-            <div class="row">
-                <div class="col itemTitel  mt-3">
-                <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <h5>Story (Video)</h5>
-                    <div class="subitem">Selain story berupa gambar , akun instagram anda juga akan berisi story dalam bentuk video animasi yang akan membuat akun anda makin hidup dan penuh warna</div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="mb-3">
-                        <img class="img-fluid w-100 rounded" src="./img/Picture3.png" alt="">
-                    </div>
-                </div>
-                </div>
-                </div>
-
-                <div class="col itemTitel  mt-3">
-                <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                <h5>Copywriting Design & Hashtag</h5>
-                    <div class="subitem">Tentunya Tenaga ahli kami setiap bulannya kami akan menganalisa dan planning secara berkelanjutan untuk Copywriting design dan hashtag yang optimal sehingga instagram anda akan makin dikenal</div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="mb-3">
-                        <img class="img-fluid w-100 rounded" src="./img/Picture4.png" alt="">
-                    </div>
-                </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container item">
-    <h3 class="harga text-center">Price List Brand Boost Package</h3>
-    <div class="row  mt-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="harga">Rp. 349.999 / Bulan</h5>
-                        <p>Minimal Berlangganan 1 Bulan</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="harga">Rp. 329.999 / Bulan</h5>
-                        <p>Minimal Berlangganan 3 Bulan</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="harga">Rp. 299.999 / Bulan</h5>
-                        <p>Minimal Berlangganan 6 Bulan</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="col-md-4"> -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="harga  mt-3">Rp. 249.999 / Bulan</h5>
-                        <p>Minimal Berlangganan 12 Bulan</p>
-                    </div>
-                </div>
-            <!-- </div> -->
-    </div>
-
-    <!-- Blog Start -->
-    <!-- <div class="container-fluid align-items-center justify-content-center  wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container item">
             <div class="row g-5">
-                <div class="col-lg-8">
-                <div class="row g-8">
-                    
-                    <div class="mb-5">
-                        <img src="img/social_media/Slide2.jpg" width="80%" alt="">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fas fa-user-tie" style="color: #fafafa;"></i>
+                            </div>
+                            <h4>Dikelola Secara Profesional</h4>
+                            <p class="mb-0">Jaminan pengelolaan sosial media dengan standar profesional untuk meningkatkan kualitas dan reputasi bisnis Anda.</p>
+                        </div>
+
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fab fa-instagram" style="color: #fafafa;"></i>
+                            </div>
+                            <h4>Postingan Rutin</h4>
+                            <p class="mb-0">Menyediakan konten yang konsisten dan menarik secara teratur di media sosial Anda untuk memperkuat kehadiran online dan memperluas jangkauan audiens.</p>
+                        </div>
                     </div>
-                    
-                    
-                    <div class="mb-5">
-                        <img src="img/social_media/Slide2.jpg" width="80%" alt="">
+                </div>
+
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
                     </div>
-                    
-                    <div class="mb-5">
-                        <img src="img/social_media/Slide3.jpg" width="80%" alt="">
-                    </div>
-                    <div class="mb-5">
-                        <img src="img/social_media/Slide4.jpg" width="80%" alt="">
-                    </div>
-                    <div class="mb-5">
-                        <img src="img/social_media/Slide5.jpg" width="80%" alt="">
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fas fa-money-bill-wave-alt" style="color: #fafafa;"></i>
+                            </div>
+                            <h4>Harga Terjangkau</h4>
+                            <p class="mb-0">Menawarkan paket manajemen sosial media dengan harga terjangkau untuk membantu mengoptimalkan investasi pemasaran online Anda.</p>
+                        </div>
+
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fas fa-heart" style="color: #fafafa;"></i>
+                            </div>
+                            <h4>Terima Beres</h4>
+                            <p class="mb-0">Anda dapat fokus sepenuhnya pada pengembangan bisnis Anda, sementara kami mengurus segala hal terkait manajemen sosial media Anda</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-   <?php include ('layout/footer.php')?>
+    <!-- Benefit -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase"></h5>
+                        <h1 class="mb-0">Kenapa Social Media Management Penting</h1>
+                    </div>
+                    <p class="mb-4">Manajemen media sosial adalah proses menciptakan, menjadwalkan, menganalisis, dan berinteraksi dengan konten yang diposting di platform media sosial. Ini melibatkan pengelolaan akun media sosial organisasi atau individu untuk membangun kesadaran merek, meningkatkan keterlibatan, dan mengarahkan lalu lintas atau penjualan.</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Branding Awareness</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Pemasaran dan Promosi</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Interaksi dengan Market baru</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Analisa Pasar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Difference -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase"></h5>
+                <h1 class="mb-0">Perbandingan Budget Pengelolaan Social Management</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="bg-light rounded">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Budget Pengelolaan</h4>
+                            <small>Jika Social Media Management Dikelola Sendiri</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 14.000.000</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Admin Social Media</span>
+                                <span style="font-size: 14px;">Rp. 3.500.000</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Social Media Manager</span>
+                                <span style="font-size: 14px;">Rp. 3.500.000</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Graphic Designer</span>
+                                <span style="font-size: 14px;">Rp. 3.500.000</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <span>Copywriting Expert</span>
+                                <span style="font-size: 14px;">Rp. 3.500.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="bg-light rounded">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Budget Pengelolaan</h4>
+                            <small>Jika Social Media Management Dikelola Rumah Pintar</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 249.999</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                            <div class="d-flex justify-content-between mb-3"><span>Admin Social Media</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Social Media Manager</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Graphic Designer</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Copywriting Expert</span><i class="fa fa-check text-primary pt-1"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Apa yang anda akan dapatkan dengan</h5>
+                <h1 class="mb-0">Paket BBP : Brand Boost Package</h1>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-3 p-2 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <h4 class="text-primary text-center py-4">Instagram Feed</h4>
+                            <img class="img-fluid w-100" src="img/Picture1.png" alt="" style="object-fit: contain;">
+                        </div>
+                        <div class="text-center py-4">
+                            <p class="m-0">Anda akan mendapatkan 12x Postingan pada Instagram Feed setiap bulannya yang artinya kurang lebih 3x seminggu instagram anda akan selalu ada postingan baru</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 p-2 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <h4 class="text-primary text-center py-4">Instagram Story (Picture)</h4>
+                            <img class="img-fluid w-100" src="img/Picture2.png" alt="" style="object-fit: cover;">
+                        </div>
+                        <div class="text-center py-4">
+                            <p class="m-0">Disela sela postingan Feed Instagram yang 3x seminggu, akun instagram anda juga akan update di bagian story berupa gambar sehingga akun instagram anda tiap hari akan ada update</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 p-2 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <h4 class=" text-primary text-center py-4">Instagram Story (Video)</h4>
+                            <img class="img-fluid w-100 h-50 object-fit-contain" src="img/Picture3.png" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <p class="m-0">Selain story berupa gambar , akun instagram anda juga akan berisi story dalam bentuk video animasi yang akan membuat akun anda makin hidup dan penuh warna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 p-2 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <h4 class=" text-primary text-center py-4">Copywriting Design & Hashtag</h4>
+                            <img class="img-fluid w-100 h-50 object-fit-contain" src="img/Picture4.png" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <p class="m-0">Tentunya Tenaga ahli kami setiap bulannya kami akan menganalisa dan planning secara berkelanjutan untuk Copywriting design dan hashtag yang optimal sehingga instagram anda akan makin dikenal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Pricing -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase"></h5>
+                <h1 class="mb-0">Price List Brand Boost Package</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="bg-light rounded text-center mx-2">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Paket 1 Bulan</h4>
+                            <small>Minimal Berlangganan 1 Bulan</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 349.999</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="bg-light rounded text-center mx-2">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Paket 3 Bulan</h4>
+                            <small>Minimal Berlangganan 3 Bulan</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 329.999</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="bg-light rounded text-center mx-2">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Paket 6 Bulan</h4>
+                            <small>Minimal Berlangganan 6 Bulan</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 299.999</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                </div>
+
+                <div class="col-lg-4 wow slideInUp mt-5" data-wow-delay="0.6s">
+                    <div class="bg-light rounded text-center">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Paket 12 Bulan</h4>
+                            <small>Minimal Berlangganan 12 Bulan</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 26px; line-height: 45px;">Rp. 249.999</small><small class="align-bottom" style="font-size: 18px; line-height: 55px;">/ Bulan</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <?php include('layout/footer.php') ?>
     <!-- Footer End -->
-    <?php include('layout/script.php')?>
+    <?php include('layout/script.php') ?>
     <script src="js/main.js"></script>
 </body>
 
