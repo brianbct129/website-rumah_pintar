@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Rumah Pintar Teknologi & Inovatif</title>
+    <title>Apa Itu Landing Page? || Rumah Pintar Teknologi & Inovatif</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Rumah Pintar Teknologi & Inovatif" name="keywords" />
-    <meta content="Rumah Pintar Teknologi & Inovatif" name="description" />
+    <meta content="Landing Page, Website, Makassar" name="keywords" />
+    <meta content="Landing page adalah salah satu elemen krusial dalam strategi pemasaran digital yang bertujuan untuk mengonversi pengunjung menjadi pelanggan. Sebuah landing page yang efektif dapat membuat perbedaan besar dalam tingkat konversi bisnis online Anda. Dalam artikel ini, kita akan membahas elemen-elemen penting yang perlu dipertimbangkan untuk menciptakan landing page yang sukses." name="description" />
     <?php include('layout/css.php') ?>
     
   </head>
