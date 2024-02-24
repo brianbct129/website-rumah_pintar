@@ -11,85 +11,7 @@
     
   </head>
 
-  <style>
-        /* Optional: Add custom styles here */
-        /* body {
-            background-color: #f8f9fa;
-            padding: 20px;
-        } */
-
-        .item {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            margin-top: 20px;
-        }
-
-        h2 {
-            color: #007bff;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            list-style: inside;
-        }
-
-        
-
-        .title {
-            color: #007bff;
-            font-size: 3em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .price {
-            font-size: 2em;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .content {
-            margin-top: 20px;
-        }
-
-        .isi {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-
-        .term {
-            margin-top: 20px;
-            font-size: 1.2em;
-            text-align: left;
-        }
-
-        .term ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .term li {
-            margin-bottom: 10px;
-        }
-
-        .order-button {
-            margin-top: 20px;
-        }
-        /* .jumbotron {
-            background-image: url('./img/Picture5.png');
-            background-size: cover;
-            color: #fff;
-            padding: 100px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            text-align: center;
-        } */
-
-    </style>
-
+ 
 
 <body>
     <!-- Spinner Start -->
@@ -98,63 +20,138 @@
 <?php include('layout/nav_content.php') ?>
 
 
-        <div class="container item">
-            <div class="row">
-                <div class="col-lg-6">
-                        <h2 class="mb-4">Apa Itu Landing Page?</h2>
-                        <p>Web yang dirancang khusus untuk tujuan pemasaran atau promosi tertentu</p>
-                        <h2>Kenapa Landing Page Penting?</h2>
-                    <p>
-                        Landing page merupakan elemen kunci dalam strategi pemasaran digital. Dengan desain yang menarik dan fokus pada tujuan tertentu,
-                        landing page dapat meningkatkan konversi dan mendukung pencapaian target pemasaran Anda.
-                    </p>
-                    <h2>Manfaat Landing Page:</h2>
-                    <ul>
-                        <li>Menyampaikan Pesan Pemasaran</li>
-                        <li>Meningkatkan Konversi</li>
-                        <li>Mengumpulkan Informasi Kontak</li>
-                        <li>Menyediakan Tawaran Khusus</li>
-                        <li>Memperkuat Citra Merek</li>
-                    </ul>
-                    <h2>Kenapa Kami?</h2>
-                    <ul>
-                        <li>Pengerjaan Cepat ( Max 2 x 24 Jam )</li>
-                        <li>Pengalaman dan Keahlian tim kami yang sudah tidak diragukanCustomer Service yang dapat di andalkan </li>
-                    </ul>
+ <!-- About Start -->
+ <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-2">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Seputar Landing Page #1</h5>
+                        <h1 class="mb-0">Apa Itu Landing Page?</h1>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <img class="img-fluid w-100 rounded" src="./img/Picture5.png" alt="">
+                    <p class="mb-4">
+                    Landing page adalah salah satu elemen krusial dalam strategi pemasaran digital yang bertujuan untuk mengonversi pengunjung menjadi pelanggan. Sebuah landing page yang efektif dapat membuat perbedaan besar dalam tingkat konversi bisnis online Anda. Dalam artikel ini, 
+                    kita akan membahas elemen-elemen penting yang perlu dipertimbangkan untuk menciptakan landing page yang sukses.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="position-relative">
+                        <img class="position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="./img/Picture5.png" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Seputar Landing Page #2</h5>
+                <h1 class="mb-0">Manfaat Landing page</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-flag text-white"></i>
+                            </div>
+                            <h4>Meningkatkan Konversi</h4>
+                            <p class="mb-0">Landing page dapat meningkatkan tingkat konversi dengan fokus pada satu tindakan spesifik, seperti pembelian atau pengisian formulir, membimbing pengunjung untuk mengambil langkah yang diinginkan.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Mengumpulkan Informasi Kontak</h4>
+                            <p class="mb-0">Jika diarahkan pada pengumpulan informasi, landing page membantu membangun daftar pelanggan yang terfokus, memberikan data berharga untuk pemasaran berkelanjutan.</p>
                         </div>
                     </div>
-            </div>
-        </div>
-
-        <div class="container item text-center">
-        <h1 class="title">DAPATKAN SEKARANG!</h1>
-        <div class="price">Rp. 499.000</div>
-        <p class="isi">Untuk 1 Tahun Pertama</p>
-        <div class="price">Rp. 299.000</div>
-        <p class="isi">Untuk Tahun berikutnya</p>
-
-        <div class="content">
-            <h2>Termasuk:</h2>
-                <div class="term text-center">
-                    <ul>
-                        <li>Hosting 1 Tahun</li>
-                        <li>Maintenance 1 Tahun</li>
-                        <li>Bonus Ganti Gambar 3x dalam 1 tahun</li>
-                    </ul>
                 </div>
-
-                <a href="contact.php"
-                    class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
-                    data-wow-delay="0.9s">Pesan Sekarang
-                </a>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4>Mengukur Kinerja dengan Mudah</h4>
+                            <p class="mb-0">Melalui analitik web, landing page memungkinkan pengukuran yang rinci terhadap konversi, tingkat pengunjung, dan interaksi, memberikan informasi kritis untuk pengambilan keputusan pemasaran.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <h4>Memperkuat Citra Merek</h4>
+                            <p class="mb-0">Dengan kemampuan untuk dikustomisasi, landing page memungkinkan pesan pemasaran yang lebih tepat sasaran, meningkatkan relevansi konten untuk audiens tertentu.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <!-- Features Start -->
 
+        <!-- Quote Start -->
+        <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-2">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative pb-3 mb-4">
+                            <h5 class="fw-bold text-primary text-uppercase">Dapatkan Sekarang !</h5>
+                            <h1 class="mb-0">Ingin penawaran ? Silahkan kontak kami</h1>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Pengerjaan Cepat</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                                <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 jam support</h5>
+                            </div>
+                        </div>
+                        <p class="mb-4">
+                        Landing page merupakan elemen kunci dalam strategi pemasaran digital. Dengan desain yang menarik dan fokus pada tujuan tertentu, landing page dapat meningkatkan konversi dan mendukung pencapaian target pemasaran Anda.
+                        </p>
+                        <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="mb-2">Call to ask any question</h5>
+                                <h4 class="text-primary mb-0">+62-811-4460-8008</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="bg-light rounded">
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">Paket UMKM</h4>
+                                <small class="text-uppercase">usaha kecil dan menengah</small>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <h1 class="display-5 mb-3">
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">Rp.</small>499.000<small
+                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ year</small>
+                                </h1>
+                                <div class="d-flex justify-content-between mb-3"><span>Hosting Setahun</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Maintenance Setahun</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Bonus Ganti Gambar 3x dalam 1 tahun</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>299.000 untuk tahun berikutnya</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quote End -->
 
+ 
 
    <?php include ('layout/footer.php')?>
     <!-- Footer End -->
