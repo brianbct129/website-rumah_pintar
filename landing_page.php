@@ -35,9 +35,7 @@
                     </p>
                 </div>
                 <div class="col-lg-5">
-                    <div class="position-relative">
-                        <img class="position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="./img/Picture5.png" style="object-fit: cover;">
-                    </div>
+                    <img class="w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="./img/Picture5.png" style="object-fit: cover;">
                 </div>
             </div>
         </div>
