@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/socialmedia1.png" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Solusinya,</h5>
-                <h1 class="mb-0">Manajemen Sosial Media Rumah Pintar</h1>
+                <h1 class="mb-0">Social Media Management Rumah Pintar</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -85,7 +85,7 @@
 
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/socialmedia2.jpg" style="object-fit: cover;">
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Social Media #2</h5>
-                <h1 class="mb-0">Perbandingan Budget Pengelolaan Social Management</h1>
+                <h1 class="mb-0">Perbandingan Budget Pengelolaan Social Media Management</h1>
             </div>
             <div class="row gx-3">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
@@ -309,10 +309,76 @@
         </div>
     </div>
 
+    <!-- Quote -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Hubungi Kami</h5>
+                        <h1 class="mb-0">Tingatkan Social Media Bisnis Anda Dengan Rumah Pintar</h1>
+                    </div>
+                    <div class="row gx-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-4"><i class="fas fa-check text-primary me-3"></i>Pengerjaan Cepat</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-4"><i class="fas fa-user-tie text-primary me-3"></i>Pengalaman Profesional</h5>
+                        </div>
+                    </div>
+                    <p class="mb-4">Bangun Brand Awareness, tingkatkan interaksi, dan dorong penjualan dengan layanan manajemen media sosial kami. Hubungi kami sekarang untuk mengoptimalkan strategi media sosial Anda dan capai tujuan bisnis Anda dengan lebih efektif!</p>
+                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Hubungi Kami</h5>
+                            <h4 class="text-primary mb-0">+62-811-4460-8008</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <form id="socialMediaForm" method="POST">
+                            <div class="row g-3">
+                                <div class="col-xl-12">
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nama Lengkap" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="service" readonly class="form-control bg-light border-0" placeholder="Social Media Management" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Kirim Pesan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <?php include('layout/footer.php') ?>
     <!-- Footer End -->
     <?php include('layout/script.php') ?>
-    <script src="js/main.js"></script>
+    <script>
+        document.getElementById("socialMediaForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const name = document.querySelector('input[name="name"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const service = "Social Media Management";
+            const message = document.querySelector('textarea[name="message"]').value;
+
+            const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${service}%0D%0APesan:%20${message}`;
+            window.open(url, "_blank");
+        });
+    </script>
 </body>
 
 </html>
