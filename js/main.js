@@ -119,7 +119,7 @@
 function changeImageOnScroll() {
   var image = document.getElementById("logo-head");
   var screenWidth = window.innerWidth;
-  
+
   // Change the image source when scrolling past a certain point or on mobile devices
   if (window.scrollY > 20 || screenWidth <= 728) {
     image.src = "assets/img/logo_rp.png";
@@ -137,21 +137,30 @@ window.onresize = changeImageOnScroll;
 // Trigger the function on page load to set the initial state
 changeImageOnScroll();
 
+function handleSubmit(formId) {
+  const form = document.getElementById(formId);
+  const name = form.querySelector('input[name="name"]').value;
+  const email = form.querySelector('input[name="email"]').value;
 
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+  let subject = "";
+  if (formId === "contactForm") {
+    subject = form.elements.subject.value;
+  } else if (formId === "landingPageForm") {
+    subject = "Landing Page";
+  } else if (formId === "socialMediaForm") {
+    subject = "Social Media Management";
+  }
 
-    const name = document.querySelector(
-      'input[placeholder="Nama Lengkap"]'
-    ).value;
-    const email = document.querySelector('input[placeholder="Email"]').value;
-    const subject = document.querySelector('input[placeholder="Subjek"]').value;
-    const message = document.querySelector(
-      'textarea[placeholder="Pesan"]'
-    ).value;
+  const message = form.querySelector('textarea[name="message"]').value;
 
-    const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${subject}%0D%0APesan:%20${message}`;
-    window.open(url, "_blank");
-  });
+  const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${subject}%0D%0APesan:%20${message}`;
+  window.open(url, "_blank");
+}
+
+const formIds = ["contactForm", "landingPageForm", "socialMediaForm"];
+formIds.forEach((formId) => {
+  const form = document.getElementById(formId);
+  if (form) {
+    form.addEventListener("submit", () => handleSubmit(formId));
+  }
+});
