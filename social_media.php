@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Rumah Pintar Teknologi & Inovatif</title>
+    <title>Social Media || Rumah Pintar Teknologi & Inovatif</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Rumah Pintar Teknologi & Inovatif" name="keywords" />
     <meta content="Rumah Pintar Teknologi & Inovatif" name="description" />
