@@ -342,16 +342,16 @@
                         <form id="socialMediaForm" method="POST">
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nama Lengkap" style="height: 55px;">
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nama Lengkap" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;">
+                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="text" name="service" readonly class="form-control bg-light border-0" placeholder="Social Media Management" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan"></textarea>
+                                    <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Kirim Pesan</button>
@@ -367,18 +367,6 @@
     <?php include('layout/footer.php') ?>
     <!-- Footer End -->
     <?php include('layout/script.php') ?>
-    <script>
-        document.getElementById("socialMediaForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            const name = document.querySelector('input[name="name"]').value;
-            const email = document.querySelector('input[name="email"]').value;
-            const service = "Social Media Management";
-            const message = document.querySelector('textarea[name="message"]').value;
-
-            const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${service}%0D%0APesan:%20${message}`;
-            window.open(url, "_blank");
-        });
-    </script>
 </body>
 
 </html>

@@ -56,7 +56,7 @@
                             <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Pengerjaan Cepat</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fas fa-user-tie text-primary me-3"></i>tes</h5>
+                            <h5 class="mb-4"><i class="fas fa-user-tie text-primary me-3"></i>Pengalaman Profesional</h5>
                         </div>
                     </div>
                     <p class="mb-4">
@@ -182,16 +182,16 @@
                         <form id="landingPageForm" method="POST">
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nama Lengkap" style="height: 55px;">
+                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="Nama Lengkap" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;">
+                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="text" readonly class="form-control bg-light border-0" placeholder="Landing Page" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan"></textarea>
+                                    <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Kirim Pesan</button>
@@ -210,18 +210,6 @@
     <?php include('layout/footer.php') ?>
     <!-- Footer End -->
     <?php include('layout/script.php') ?>
-    <script>
-        document.getElementById("landingPageForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            const name = document.querySelector('input[name="name"]').value;
-            const email = document.querySelector('input[name="email"]').value;
-            const service = "Landing Page";
-            const message = document.querySelector('textarea[name="message"]').value;
-
-            const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${service}%0D%0APesan:%20${message}`;
-            window.open(url, "_blank");
-        });
-    </script>
 </body>
 
 </html>
