@@ -188,7 +188,7 @@
                                     <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" readonly class="form-control bg-light border-0" placeholder="Landing Page" style="height: 55px;">
+                                    <input type="text" readonly class="form-control bg-light border-0" placeholder="Paket UMKM" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan" required></textarea>
