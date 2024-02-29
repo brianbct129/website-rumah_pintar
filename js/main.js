@@ -143,17 +143,23 @@ function handleSubmit(formId) {
   const email = form.querySelector('input[name="email"]').value;
 
   let subject = "";
+  let title = "";
+
   if (formId === "contactForm") {
     subject = form.elements.subject.value;
+    title = "HUBUNGI%20KAMI%0D%0A------------------";
   } else if (formId === "landingPageForm") {
-    subject = "Landing Page";
+    subject = "Paket UMKM";
+    title = "PEMESANAN%20LANDING%20PAGE%0D%0A--------------------------------";
   } else if (formId === "socialMediaForm") {
-    subject = "Social Media Management";
+    const selectElement = form.querySelector('select[name="services"]').value;
+    subject = `Paket ${selectElement} Bulan`;
+    title = "PENDAFTARAN%20SOCIAL%20MEDIA%0D%0A----------------------------------";
   }
 
   const message = form.querySelector('textarea[name="message"]').value;
 
-  const url = `https://wa.me/6281144608008?text=Nama%20Lengkap:%20${name}%0D%0AEmail:%20${email}%0D%0ASubjek:%20${subject}%0D%0APesan:%20${message}`;
+  const url = `https://wa.me/6281144608008?text=${title}%0D%0ANAMA: ${name}%0D%0AEMAIL: ${email}%0D%0ASUBJEK: ${subject}%0D%0APesan: ${message}`;
   window.open(url, "_blank");
 }
 
