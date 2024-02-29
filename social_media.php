@@ -348,7 +348,12 @@
                                     <input type="email" name="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" name="service" readonly class="form-control bg-light border-0" placeholder="Social Media Management" style="height: 55px;">
+                                    <select name="services" class="form-select bg-light border-0" style="height: 55px;">
+                                        <option value="1">Paket 1 Bulan</option>
+                                        <option value="3">Paket 3 Bulan</option>
+                                        <option value="6">Paket 6 Bulan</option>
+                                        <option value="12">Paket 12 Bulan</option>
+                                    </select>
                                 </div>
                                 <div class="col-12">
                                     <textarea name="message" class="form-control bg-light border-0" rows="3" placeholder="Pesan" required></textarea>
