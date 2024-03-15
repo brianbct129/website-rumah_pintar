@@ -155,15 +155,18 @@ function handleSubmit(formId) {
     const selectElement = form.querySelector('select[name="services"]').value;
     subject = `Paket ${selectElement} Bulan`;
     title = "PENDAFTARAN%20SOCIAL%20MEDIA%0D%0A----------------------------------";
+  } else if (formId === "cctvForm") {
+    subject = `Pemasangan CCTV`;
+    title = "PEMASANGAN%20CCTV%0D%0A-----------------------";
   }
 
   const message = form.querySelector('textarea[name="message"]').value;
 
-  const url = `https://wa.me/6281144608008?text=${title}%0D%0ANAMA: ${name}%0D%0AEMAIL: ${email}%0D%0ASUBJEK: ${subject}%0D%0APesan: ${message}`;
+  const url = `https://wa.me/6281144608008?text=${title}%0D%0ANAMA: ${name}%0D%0AEMAIL: ${email}%0D%0ASUBJEK: ${subject}%0D%0APESAN: ${message}`;
   window.open(url, "_blank");
 }
 
-const formIds = ["contactForm", "landingPageForm", "socialMediaForm"];
+const formIds = ["contactForm", "landingPageForm", "socialMediaForm", "cctvForm"];
 formIds.forEach((formId) => {
   const form = document.getElementById(formId);
   if (form) {
