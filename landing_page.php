@@ -59,9 +59,10 @@
                             <h5 class="mb-4"><i class="fas fa-user-tie text-primary me-3"></i>Pengalaman Profesional</h5>
                         </div>
                     </div>
-                    <p class="mb-4">
+                    <p class="mb-1">
                         Landing page merupakan elemen kunci dalam strategi pemasaran digital. Dengan desain yang menarik dan fokus pada tujuan tertentu, landing page dapat meningkatkan konversi dan mendukung pencapaian target pemasaran Anda.
                     </p>
+                    <small class="text-muted mb-2" style="font-size: 12px;">*Lebih dari 3x revisi berbayar 50.000/ revisi</small>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
@@ -82,11 +83,13 @@
                             <h1 class="display-5 mb-3">
                                 <small class="align-top" style="font-size: 22px; line-height: 45px;">Rp.</small>499.000<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ year</small>
                             </h1>
+                            <div class="d-flex justify-content-between mb-3"><span>Domain .my.id</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Hosting Setahun</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Maintenance Setahun</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>Bonus Ganti Gambar 3x dalam 1 tahun</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>299.000 untuk tahun berikutnya</span><i class="fa fa-check text-primary pt-1"></i></div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
