@@ -87,6 +87,10 @@
                             <div class="d-flex justify-content-between mb-3"><span>Bonus Ganti Gambar 3x dalam 1 tahun</span><i class="fa fa-check text-primary pt-1"></i></div>
                             <div class="d-flex justify-content-between mb-3"><span>299.000 untuk tahun berikutnya</span><i class="fa fa-check text-primary pt-1"></i></div>
                         </div>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
@@ -146,8 +150,52 @@
             </div>
         </div>
     </div>
-    <!-- Features Start -->
+    <!-- Features End -->
 
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Portofolio</h5>
+                <h1 class="mb-0">Client Landing Page</h1>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="assets/img/sharon.png" alt="" />
+                            <!-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Desktop Application</a> -->
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-3">Sharon Entertainment & Organizer</h4>
+                            <p class="text-truncate">
+
+                                Sharon EO terbentuk sejak tahun 2015, berawal dari Sharon Dancer dan telah mengembangkan sayap di bidang Event Organizer agar dapat terlibat secara penuh dalam menyukseskan acara klien kami.
+                            </p>
+                            <a class="text-uppercase" href="https://www.sharoneomks.com/">Kunjungi<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="assets/img/sepedatoa.png" alt="" />
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-3">
+                                Sepeda Toa Makassar
+                            </h4>
+                            <p class="text-truncate">
+                                STM merupakan komunitas sepeda yang sudah eksis selama lebih dari 15 tahun dan menjadi wadah bagi penggemar olahraga sepeda dari berbagai kalangan masyarakat tanpa mengenal status sosial atau profesi tertentu. STM selalu mengutamakan keselamatan anggotanya dalam setiap kegiatan harian maupun event besar. Walaupun berkecepatan tinggi di jalan, tetapi dengan keteraturan kami tidak membahayakan sesama pengguna jalan.
+                            </p>
+                            <a class="text-uppercase" href="https://www.sepedatoamakassar.com/">Kunjungi <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
 
     <!-- Quote Start -->
     <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">

@@ -309,6 +309,65 @@
         </div>
     </div>
 
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
+                <h5 class="fw-bold text-primary text-uppercase">Portofolio</h5>
+                <h1 class="mb-0">Client Social Media</h1>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="assets/img/dangel-portofolio.png" alt="" />
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-3">Dangel Express</h4>
+                            <p class="text-truncate">
+                                Dangel Express Lion Parcel
+                            </p>
+                            <a class="text-uppercase" href="https://www.instagram.com/dangelexpress/">Kunjungi<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="assets/img/biotavit-portofolio.png" alt="" />
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-3">
+                                Biotavit
+                            </h4>
+                            <p class="text-truncate">
+                                Kopi by Biotagroup
+                            </p>
+                            <a class="text-uppercase" href="https://www.instagram.com/kopinya.biotavit/">Kunjungi <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="assets/img/upplus-portofolio.png" alt="" />
+                        </div>
+                        <div class="p-4">
+                            <h4 class="mb-3">
+                                CV UP PLUS INDO
+                            </h4>
+                            <p class="text-truncate">
+                                Rahasia kulit Wajah Kinclong bebas Flek Tanpa Ribet, Cukup Satu Cream Shean Beauty & Glow
+                            </p>
+                            <a class="text-uppercase" href="https://www.instagram.com/upplusindo/">Kunjungi <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
     <!-- Quote -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
