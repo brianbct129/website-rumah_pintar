@@ -29,12 +29,12 @@
               <div class="team-img position-relative overflow-hidden">
                 <img
                   class="img-fluid w-100"
-                  src="assets/img/Brian.jpeg"
+                  src="https://www.pngkey.com/png/detail/52-523516_empty-profile-picture-circle.png"
                   alt=""
                 />
               </div>
               <div class="text-center py-4">
-                <h4 class="text-primary">Brian C. Thomas</h4>
+                <h4 class="text-primary">-</h4>
                 <p class="text-uppercase m-0">Direktur</p>
               </div>
             </div>
@@ -44,12 +44,12 @@
               <div class="team-img position-relative overflow-hidden">
                 <img
                   class="img-fluid w-100"
-                  src="assets/img/Hengki.jpeg"
+                  src="https://www.pngkey.com/png/detail/52-523516_empty-profile-picture-circle.png"
                   alt=""
                 />
               </div>
               <div class="text-center py-4">
-                <h4 class="text-primary">Hengki Rachmat Jaya</h4>
+                <h4 class="text-primary">-</h4>
                 <p class="text-uppercase m-0">Komisaris</p>
               </div>
             </div>
